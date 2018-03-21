@@ -2,6 +2,7 @@ body{
 font-family: 'Oxygen', sans-serif;
 line-height: 1.8;
 justify-content: center;
+background-color: #12111f;
 }
 
 .animatedHeader{
@@ -39,14 +40,25 @@ justify-content: center;
   padding-top: 20px;
 }
 
+.card{
+  background-color: #12111f;
+}
+
 .navbar li a, .navbar .navbar-toggler {
     color: #fff;
     line-height: 3;
 }
 
+p {
+  color: #fff;
+}
+
 h1, h2, h3, h4, h5, h6{
   font-family: 'Poppins', cursive;
   text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .container-fluid {
