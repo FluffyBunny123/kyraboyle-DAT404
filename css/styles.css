@@ -15,14 +15,33 @@ background-color: #12111f;
   position: relative;
 }
 
+.overImage{
+  position: absolute;
+ text-align: center;
+ color: black;
+}
+
+.paper {
+  position: absolute;
+   text-align: center;
+   color: white;
+   width:100%;
+}
+.rounded-circle {
+  width:60%;
+  padding-bottom:20px;
+}
+
 #kyraMobile{
   display: none;
 }
 
 
 #canvasContainer{
-  padding: 0;
+  padding: 20px;
   margin: 0 auto;
+  justify-content: center;
+  text-align: center;
 }
 
 .navbar {
@@ -331,6 +350,13 @@ footer{
   #kyraMobile{
     padding-top: 80px;
     display: block;
+  }
+
+  #canvasContainer{
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
   }
 }
 
