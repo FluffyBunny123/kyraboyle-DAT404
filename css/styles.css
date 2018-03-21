@@ -18,16 +18,12 @@ justify-content: center;
   display: none;
 }
 
-#backgroundAnimation{
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-}
+
 #canvasContainer{
   padding: 0;
   margin: 0 auto;
 }
+
 .navbar {
     margin-bottom: 0;
     background-color: #610559;
@@ -79,25 +75,23 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .imgt{
-  width: 350px;
+  width: 25%;
   position: absolute;
-  left: 100px;
+  left: 10%;
   top: 100px;
 }
 
 .imgs{
-  width: 300px;
+  width: 20%;
   position: absolute;
-  left: 130px;
+  left: 8%;
   top: 450px;
 }
 
 .imgu{
-  padding-top: 100px;
-  height: 400px;
-  width: 300px;
+  width: 20%;
   position: absolute;
-  left: 400px;
+  left: 20%;
   top: 500px;
 }
 
@@ -132,196 +126,196 @@ footer{
 @media (max-width: 1200px){
 
   .imgk{
-    padding-top: 100px;
-    height: 500px;
-    width: 500px;
+    width: 40%;
     position: absolute;
-    left: 330px;
-    top: 30px;
+    left: 30%;
+    top: 140px;
   }
 
   .imgd{
+    width: 40%;
     position: absolute;
-    left: 600px;
-    top: 10px;
+    left: 60%;
+    top: 120px;
   }
 
   .imgt{
-    padding-top: 100px;
-    height: 300px;
-    width: 250px;
+    width: 25%;
     position: absolute;
-    left: 100px;
-    top: 10px;
+    left: 10%;
+    top: 100px;
   }
 
   .imgs{
-    padding-top: 100px;
-    height: 300px;
-    width: 300px;
+    width: 20%;
     position: absolute;
-    left: 30px;
-    top: 110px;
+    left: 8%;
+    top: 450px;
   }
 
   .imgu{
-    padding-top: 100px;
-    height: 400px;
-    width: 300px;
+    width: 20%;
     position: absolute;
-    left: 150px;
-    top: 250px;
+    left: 20%;
+    top: 500px;
+  }
+  .animatedHeader{
+    background-image: url('../assets/img/space1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
   }
 }
 
 @media (max-width: 992px){
 
   .imgk{
-    padding-top: 100px;
-    height: 400px;
-    width: 400px;
+    width: 40%;
     position: absolute;
-    left: 300px;
-    top: 50px;
+    left: 30%;
+    top: 140px;
   }
 
   .imgd{
-    padding-top: 100px;
-    height: 450px;
-    width: 400px;
+    width: 40%;
     position: absolute;
-    left: 600px;
-    top: 40px;
+    left: 60%;
+    top: 100px;
   }
 
   .imgt{
-    padding-top: 100px;
-    height: 300px;
-    width: 250px;
+    width: 25%;
     position: absolute;
-    left: 100px;
-    top: -40px;
+    left: 10%;
+    top: 100px;
   }
 
   .imgs{
-    padding-top: 100px;
-    height: 250px;
-    width: 200px;
+    width: 20%;
     position: absolute;
-    left: 50px;
-    top: 50px;
+    left: 8%;
+    top: 300px;
   }
 
   .imgu{
-    padding-top: 100px;
-    height: 300px;
-    width: 200px;
+    width: 20%;
     position: absolute;
-    left: 140px;
-    top: 160px;
+    left: 20%;
+    top: 400px;
+  }
+  .animatedHeader{
+    background-image: url('../assets/img/space1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
   }
 }
 
 @media (max-width: 768px){
   .imgk{
-    padding-top: 100px;
-    height: 350px;
-    width: 300px;
+    width: 40%;
     position: absolute;
-    left: 240px;
-    top: 35px;
+    left: 30%;
+    top: 140px;
   }
 
   .imgd{
-    padding-top: 100px;
-    height: 400px;
-    width: 350px;
+    width: 40%;
     position: absolute;
-    left: 400px;
-    top: -10px;
+    left: 60%;
+    top: 100px;
   }
 
   .imgt{
-    padding-top: 100px;
-    height: 250px;
-    width: 200px;
+    width: 25%;
     position: absolute;
-    left: 80px;
-    top: -30px;
+    left: 10%;
+    top: 100px;
   }
 
   .imgs{
-    padding-top: 100px;
-    height: 250px;
-    width: 200px;
+    width: 20%;
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 8%;
+    top: 300px;
   }
 
   .imgu{
-    padding-top: 100px;
-    height: 300px;
-    width: 200px;
+    width: 20%;
     position: absolute;
-    left: 100px;
-    top: 90px;
+    left: 20%;
+    top: 400px;
+  }
+  .animatedHeader{
+    background-image: url('../assets/img/space1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
   }
 }
 
 @media (max-width: 572px){
   .imgk{
-    padding-top: 100px;
-    height: 300px;
-    width: 250px;
+    width: 40%;
     position: absolute;
-    left: 160px;
-    top: -20px;
+    left: 30%;
+    top: 140px;
   }
 
   .imgd{
-    padding-top: 100px;
-    height: 300px;
-    width: 150px;
+    width: 40%;
     position: absolute;
-    left: 380px;
-    top: -15px;
+    left: 60%;
+    top: 100px;
   }
 
   .imgt{
-    padding-top: 100px;
-    height: 200px;
-    width: 150px;
+    width: 25%;
     position: absolute;
-    left: 50px;
-    top: -20px;
+    left: 10%;
+    top: 100px;
   }
 
   .imgs{
-    padding-top: 100px;
-    height: 200px;
-    width: 100px;
+    width: 20%;
     position: absolute;
-    left: 20px;
-    top: 5px;
+    left: 8%;
+    top: 200px;
   }
 
   .imgu{
-    padding-top: 100px;
-    height:200px;
-    width: 100px;
+    width: 20%;
     position: absolute;
-    left: 70px;
-    top: 70px;
+    left: 20%;
+    top: 300px;
+  }
+  .animatedHeader{
+    background-image: url('../assets/img/space1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
   }
 }
 
 @media (max-width: 320px){
-  #kyra{
+  .animatedHeader{
     display: none;
   }
 
   #kyraMobile{
+    padding-top: 80px;
     display: block;
   }
 }
