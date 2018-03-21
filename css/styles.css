@@ -4,10 +4,14 @@ line-height: 1.8;
 justify-content: center;
 }
 
-#kyra{
-  display: inline;
+.animatedHeader{
+  background-image: url('../assets/img/space1.jpg');
+  background-position: center;
+  background-size: cover;
   width: 100%;
-
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
 }
 
 #kyraMobile{
@@ -59,48 +63,33 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Indie Flower', cursive;
 }
 
-.hero-img{
-background-image: url(assets/img/space1.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-}
 
 .imgk{
-  padding-top: 100px;
-  height: 800px;
-  width: 800px;
+  width: 40%;
   position: absolute;
-  left: 570px;
+  left: 30%;
   top: 140px;
 }
 
 .imgd{
-  padding-top: 100px;
-  height: 950px;
-  width: 830px;
+  width: 40%;
   position: absolute;
-  left: 1000px;
-  top: 10px;
+  left: 60%;
+  top: 100px;
 }
 
 .imgt{
-  padding-top: 100px;
-  height: 400px;
   width: 350px;
   position: absolute;
   left: 100px;
-  top: 10px;
+  top: 100px;
 }
 
 .imgs{
-  padding-top: 100px;
-  height: 300px;
   width: 300px;
   position: absolute;
-  left: 270px;
-  top: 370px;
+  left: 130px;
+  top: 450px;
 }
 
 .imgu{
@@ -152,9 +141,6 @@ footer{
   }
 
   .imgd{
-    padding-top: 100px;
-    height: 650px;
-    width: 600px;
     position: absolute;
     left: 600px;
     top: 10px;
