@@ -51,6 +51,8 @@ background-color: #12111f;
 
 p {
   color: #fff;
+  font-size: 15px;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -108,7 +110,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn-primary{
-  background-color: #bc84ca;
+  background-color: #610559;
   text-decoration-color: black;
   color: #fff;
   border-color: #610559;
@@ -117,7 +119,7 @@ h1, h2, h3, h4, h5, h6{
 
 .btn-primary:hover{
   background-color: #610559;
-    border-color: #bc84ca;
+    border-color: #fff;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active{
@@ -330,4 +332,8 @@ footer{
     padding-top: 80px;
     display: block;
   }
+}
+
+.small{
+  color: #fff;
 }
