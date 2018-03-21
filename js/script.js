@@ -24,3 +24,5 @@ function loadScript() {
  document.body.appendChild(script);
 }
 //window.onload = loadscript;
+
+console.log("map")
