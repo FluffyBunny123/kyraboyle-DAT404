@@ -59,13 +59,13 @@
 <footer class="text-center mt-5 pt-5 pb-5">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 mb-4 mg-lg-0">
+      <div class="col-md-6 mb-6 mg-lg-0">
         <h4 class="text-uppercase mb-4">Address</h4>
         <p class="lead mb-0">Drakes Circus
         <br>
         Plymouth, PL4 8AA</p>
       </div>
-      <div class="col-md-4 mb-4 mg-lg-0">
+      <div class="col-md-6 mb-6 mg-lg-0">
         <h4 class="text-uppercase mb-4">Social Media</h4>
         <ul class="list-inline mb-0">
           <li class="list-inline-item">
@@ -85,7 +85,27 @@
           </li>
         </ul>
       </div>
+      <div class="col-md-12 mb-12 mg-lg-0">
+        <h4 class="text-uppercase mb-4">Google Map</h4>
+      <div id="map"></div>
+<script>
+function initMap() {
+      var uluru = {lat: 50.375868 , lng:  -4.139658};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 9,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJAXVUp8P1Au_kX19qQ3tE7UOzRO59OtE&callback=initMap"
+async defer></script>
    </div>
+</div>
 </div>
 </footer>
 

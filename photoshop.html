@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <!-- these are links to all the diffrent code -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kyra Boyle</title>
@@ -13,6 +14,7 @@
     <link href="css/styles.css" rel="stylesheet">
 
   </head>
+    <!-- this keeps the nav bar stuck to the top -->
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
@@ -47,8 +49,8 @@
   </nav>
 
   <body>
+    <!-- header images -->
     <div class="animatedHeader">
-      <!-- <img class="img img-fluid" src="assets/img/space1.jpg"> -->
       <img class="imgd animated intensifies" src="assets/img/duck.png">
       <img class="imgt shake-crazy" src="assets/img/trex.png">
       <img class="imgs animated shake-chunk" src="assets/img/sloth.png">
@@ -114,13 +116,13 @@
     <footer class="text-center mt-5 pt-5 pb-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 mb-4 mg-lg-0">
+          <div class="col-md-6 mb-6 mg-lg-0">
             <h4 class="text-uppercase mb-4">Address</h4>
             <p class="lead mb-0">Drakes Circus
             <br>
             Plymouth, PL4 8AA</p>
           </div>
-          <div class="col-md-4 mb-4 mg-lg-0">
+          <div class="col-md-6 mb-6 mg-lg-0">
             <h4 class="text-uppercase mb-4">Social Media</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
@@ -140,8 +142,28 @@
               </li>
             </ul>
           </div>
+          <div class="col-md-12 mb-12 mg-lg-0">
+            <h4 class="text-uppercase mb-4">Google Map</h4>
+          <div id="map"></div>
+   <script>
+   function initMap() {
+         var uluru = {lat: 50.375868 , lng:  -4.139658};
+         var map = new google.maps.Map(document.getElementById('map'), {
+           zoom: 9,
+           center: uluru
+         });
+         var marker = new google.maps.Marker({
+           position: uluru,
+           map: map
+         });
+       }
+
+   </script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJAXVUp8P1Au_kX19qQ3tE7UOzRO59OtE&callback=initMap"
+   async defer></script>
        </div>
     </div>
+  </div>
     </footer>
 
     <div class=" small text-center pt-1 pb-1">
